@@ -16,7 +16,11 @@ namespace PuntoPrestamo
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Login.Login());
+
+            Login.Login frmLogin = new Login.Login();
+            frmLogin.Show();
+
+            Application.Run();
         }
     }
 }
