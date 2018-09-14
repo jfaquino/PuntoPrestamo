@@ -57,16 +57,6 @@
             this.panel1.TabIndex = 0;
             this.panel1.MouseDown += new System.Windows.Forms.MouseEventHandler(this.panel1_MouseDown);
             // 
-            // pictureBox3
-            // 
-            this.pictureBox3.Image = global::PuntoPrestamo.Properties.Resources.coins;
-            this.pictureBox3.Location = new System.Drawing.Point(52, 116);
-            this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(145, 94);
-            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox3.TabIndex = 0;
-            this.pictureBox3.TabStop = false;
-            // 
             // shapeContainer1
             // 
             this.shapeContainer1.Location = new System.Drawing.Point(0, 0);
@@ -167,28 +157,6 @@
             this.linkPassword.TabIndex = 0;
             this.linkPassword.TabStop = true;
             this.linkPassword.Text = "He olvidado mi contraseña";
-            // 
-            // btnMinimizar
-            // 
-            this.btnMinimizar.Image = global::PuntoPrestamo.Properties.Resources.horizontal_line_remove_button;
-            this.btnMinimizar.Location = new System.Drawing.Point(732, 3);
-            this.btnMinimizar.Name = "btnMinimizar";
-            this.btnMinimizar.Size = new System.Drawing.Size(15, 15);
-            this.btnMinimizar.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.btnMinimizar.TabIndex = 8;
-            this.btnMinimizar.TabStop = false;
-            this.btnMinimizar.Click += new System.EventHandler(this.btnMinimizar_Click);
-            // 
-            // btnCerrar
-            // 
-            this.btnCerrar.Image = global::PuntoPrestamo.Properties.Resources.close;
-            this.btnCerrar.Location = new System.Drawing.Point(753, 3);
-            this.btnCerrar.Name = "btnCerrar";
-            this.btnCerrar.Size = new System.Drawing.Size(15, 15);
-            this.btnCerrar.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.btnCerrar.TabIndex = 7;
-            this.btnCerrar.TabStop = false;
-            this.btnCerrar.Click += new System.EventHandler(this.btnCerrar_Click);
             // 
             // Login
             // 
