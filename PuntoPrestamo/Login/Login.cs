@@ -82,5 +82,13 @@ namespace PuntoPrestamo.Login
             ReleaseCapture();
             SendMessage(this.Handle, 0x112, 0xf012, 0);
         }
+
+        private void btnLogin_Click(object sender, EventArgs e)
+        {            
+            Form1 frm = new Form1();
+            frm.Show();
+
+            this.Close();
+        }
     }
 }
