@@ -21,5 +21,10 @@ namespace PuntoPrestamo
         {
 
         }
+
+        private void closebuttom_Click(object sender, EventArgs e)
+        {
+            Close();
+        }
     }
 }
