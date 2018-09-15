@@ -97,12 +97,14 @@
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>
+    <None Include="Resources\pay.png" />
+    <None Include="Resources\loan.png" />
     <None Include="Resources\avatar.png" />
+    <None Include="Resources\calculator.png" />
     <Content Include="Resources\close.png" />
     <Content Include="Resources\coins.png" />
     <None Include="Resources\home.png" />
     <Content Include="Resources\horizontal-line-remove-button.png" />
-    <Content Include="Resources\loan.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
