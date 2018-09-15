@@ -173,6 +173,16 @@ namespace PuntoPrestamo.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap menu_three_horizontal_lines_symbol {
+            get {
+                object obj = ResourceManager.GetObject("menu-three-horizontal-lines-symbol", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap pay {
             get {
                 object obj = ResourceManager.GetObject("pay", resourceCulture);

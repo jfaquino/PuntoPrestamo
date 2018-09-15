@@ -31,5 +31,19 @@ namespace PuntoPrestamo
         {
             this.WindowState = FormWindowState.Minimized;
         }
+
+        private void btnSlide_Click(object sender, EventArgs e)
+        {
+            if (pnlLeft.Width == 280)
+            {
+                pnlLeft.Width = 55;
+                btnSlide.Location = new Point(25, 26);
+            }
+            else
+            {
+                pnlLeft.Width = 280;
+                btnSlide.Location = new Point(247, 26);
+            }
+        }
     }
 }

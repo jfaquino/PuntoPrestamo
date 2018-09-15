@@ -97,6 +97,7 @@
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>
+    <None Include="Resources\menu-three-horizontal-lines-symbol.png" />
     <None Include="Resources\right-arrow.png" />
     <None Include="Resources\pay.png" />
     <None Include="Resources\loan.png" />
