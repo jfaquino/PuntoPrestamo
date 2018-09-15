@@ -49,13 +49,24 @@
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(122)))), ((int)(((byte)(204)))));
-            this.panel1.Controls.Add(this.pictureBox3);
+            this.panel1.Controls.Add(this.btnCerrar);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Left;
             this.panel1.Location = new System.Drawing.Point(0, 0);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(250, 330);
             this.panel1.TabIndex = 0;
             this.panel1.MouseDown += new System.Windows.Forms.MouseEventHandler(this.panel1_MouseDown);
+            // 
+            // pictureBox3
+            // 
+            this.pictureBox3.Image = global::PuntoPrestamo.Properties.Resources.close;
+            this.pictureBox3.Location = new System.Drawing.Point(753, 3);
+            this.pictureBox3.Name = "pictureBox3";
+            this.pictureBox3.Size = new System.Drawing.Size(15, 15);
+            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox3.TabIndex = 0;
+            this.pictureBox3.TabStop = false;
+            this.pictureBox3.Click += new System.EventHandler(this.btnCerrar_Click);
             // 
             // shapeContainer1
             // 
@@ -158,6 +169,27 @@
             this.linkPassword.TabStop = true;
             this.linkPassword.Text = "He olvidado mi contraseña";
             // 
+            // btnMinimizar
+            // 
+            this.btnMinimizar.Image = global::PuntoPrestamo.Properties.Resources.horizontal_line_remove_button;
+            this.btnMinimizar.Location = new System.Drawing.Point(732, 3);
+            this.btnMinimizar.Name = "btnMinimizar";
+            this.btnMinimizar.Size = new System.Drawing.Size(15, 15);
+            this.btnMinimizar.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.btnMinimizar.TabIndex = 0;
+            this.btnMinimizar.TabStop = false;
+            this.btnMinimizar.Click += new System.EventHandler(this.btnMinimizar_Click);
+            // 
+            // btnCerrar
+            // 
+            this.btnCerrar.Image = global::PuntoPrestamo.Properties.Resources.coins;
+            this.btnCerrar.Location = new System.Drawing.Point(63, 111);
+            this.btnCerrar.Name = "btnCerrar";
+            this.btnCerrar.Size = new System.Drawing.Size(120, 89);
+            this.btnCerrar.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.btnCerrar.TabIndex = 1;
+            this.btnCerrar.TabStop = false;
+            // 
             // Login
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -165,7 +197,7 @@
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(15)))), ((int)(((byte)(15)))), ((int)(((byte)(15)))));
             this.ClientSize = new System.Drawing.Size(780, 330);
             this.Controls.Add(this.btnMinimizar);
-            this.Controls.Add(this.btnCerrar);
+            this.Controls.Add(this.pictureBox3);
             this.Controls.Add(this.linkPassword);
             this.Controls.Add(this.btnLogin);
             this.Controls.Add(this.label1);
