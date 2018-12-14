@@ -22,7 +22,6 @@ namespace PuntoPrestamo
             frmLogin.Show();
 
             Application.Run();
-
         }
         
         /// <summary>
